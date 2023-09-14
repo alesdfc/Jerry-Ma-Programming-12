@@ -2,10 +2,14 @@ package ConditionalsPractice;
 import java.util.Scanner;
 public class Assignment2 {
     public static void main( String[] args ) {
+
+        //Asking and information
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hello! What is your name?");
         String name = scanner.nextLine();
         System.out.println("Wait! What is your age? I almost forgot to ask");
+
+        //Responses
         int age = Integer.parseInt(scanner.nextLine());
         if(age >= 25){
             System.out.println("Congratulations you can do basically anything " + name);
