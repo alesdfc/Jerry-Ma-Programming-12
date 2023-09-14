@@ -7,7 +7,7 @@ public class Assignment3 {
 
         //Asking and Information
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your current weight on earth in pounds:");
+        System.out.println("Please enter your current weight on earth in pounds (whole number recommended for greatest accuracy):");
         double weight = Double.parseDouble(scanner.nextLine());
         System.out.println("Which of the following planets are you visiting? Please enter the number beside your choice");
         System.out.println("    1. Venus,  2. Mars,  3. Jupiter");
@@ -31,6 +31,6 @@ public class Assignment3 {
             System.out.println("You failed to provide a valid answer, please try again.");
             System.exit(0);
         }
-        System.out.println("Your weight on that planet would be " + weight);
+        System.out.println("Your weight on that planet would be " + weight + "lbs");
     }
 }
