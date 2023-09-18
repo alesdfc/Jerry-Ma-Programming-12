@@ -50,12 +50,13 @@ public class ArrayPractice {
         System.out.println("The value of index 6 in the 2nd array is " + averagearray[6]);
 
         // Assignment 4
-        System.out.println(Arrays.toString(averagearray));
+
+        System.out.println("Heres the original array: " + Arrays.toString(averagearray));
         for(int i = 0; i < 5; i++){
             temporary = averagearray[i];
             averagearray[i] = averagearray[9-i];
             averagearray[9-i] = temporary;
         }
-        System.out.println(Arrays.toString(averagearray));
+        System.out.println("Heres the swapped array: " + Arrays.toString(averagearray));
     }
 }
