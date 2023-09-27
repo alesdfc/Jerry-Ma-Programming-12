@@ -41,4 +41,18 @@ public class Student {
         }
         return (total/(courselist.size()));
     }
+
+    // Getters and Setters
+    public ArrayList getCourses(){
+        return courselist;
+    }
+    public String getFirstName(){
+        return firstName;
+    }
+    public int getID(){
+        return studentId;
+    }
+    public void setFirstName(String name){
+        this.firstName = name;
+    }
 }

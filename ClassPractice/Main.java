@@ -9,8 +9,7 @@ public class Main {
         System.out.println(cool.showCourses());
         System.out.println("The average grade of this student is: " + cool.averageGrade());
         System.out.println(cool);
-        Course testing = new Course("lorem ispum", 0);
-        System.out.println(testing);
+        System.out.println(cool.getCourses().get(0));
         Student notcool = new Student("What's my id??? is it one higher than wow?");
         System.out.println(notcool);
     }
