@@ -32,7 +32,7 @@ public class ReadingText {
         String answer = null;
         for (int i = 0; i < text.size(); i++) {
             if (text.get(i).contains(word)) {
-                answer = word + " appears at index: " + i + " in the Arraylist. The word appears at index " +   "\n"  ;
+                answer = word + " appears at index: " + (i+1) + " in the Arraylist, or the sentence. The word starts at index " +  text.get(i).indexOf(word) + " in the sentence\n"  ;
             }
         }
 
