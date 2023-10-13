@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad6981fc-0f62-4312-9d97-7d306a9cfcfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingText/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingText/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingText/ReadingText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingText/ReadingText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingText/out/production/ReadingText/ReadingText/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingText/out/production/ReadingText/ReadingText/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingText/out/production/ReadingText/ReadingText/ReadingText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ReadingText/out/production/ReadingText/ReadingText/ReadingText.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2WP3WWiV1llFvefwv8D81ZYgSsj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/1430823/Downloads/openjfx-21_windows-x64_bin-sdk/javafx-sdk-21",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="FriendsBook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FriendsBook.App" />
+      <module name="FriendsBook" />
+      <option name="VM_PARAMETERS" value=" --module-path=&quot;C:\Program Files\Java\javafx-sdk-11\lib&quot; \     --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad6981fc-0f62-4312-9d97-7d306a9cfcfd" name="Changes" comment="" />
+      <created>1696620419560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696620419560</updated>
+      <workItem from="1696620420573" duration="4009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/App.java</url>
+          <line>14</line>
+          <properties class="FriendsBook.App" method="start">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
