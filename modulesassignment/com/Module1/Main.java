@@ -1,4 +1,4 @@
-package Modules.Module1;
+package Modules.com.Module1;
 import java.util.List;
 import java.util.ArrayList;
 public class Main {

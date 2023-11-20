@@ -1,4 +1,4 @@
-package Modules.Module1;
+package Modules.com.Module1;
 
 public class Triangle extends TwoDShape {
     double side1;

@@ -1,4 +1,4 @@
-package Modules.Module2;
+package Modules.com.Module3;
 
 abstract public class TwoDShape {
 

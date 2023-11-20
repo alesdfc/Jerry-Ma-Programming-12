@@ -1,4 +1,4 @@
-package Modules.Module4;
+package Modules.com.Module3;
 
 public class Triangle extends TwoDShape {
         public interface Rotate {
@@ -10,13 +10,13 @@ public class Triangle extends TwoDShape {
         double side1;
         double side2;
         double side3;
-        public Triangle(double width, double height, double angle, Colour colour){
+
+        Triangle(double width , double height, double angle){
             this.width = width;
             this.height = height;
             this.angle = angle;
-            this.colour = colour;
         }
-        public Triangle(double side1, double side2, double side3, double angle, Colour colour){
+        Triangle(double side1 , double side2, double side3, double angle){
 
             this.side1 = side1;
             this.side2 = side2;
@@ -24,22 +24,11 @@ public class Triangle extends TwoDShape {
             this.height = this.heronsHeight();
             this.width = side3;
             this.angle = angle;
-            this.colour = colour;
         }
-
-        /*
-        *@param Triangle Object
-        *@return the height of the triangle object given its 3 sides using herons formula
-        */
         private double heronsHeight(){
             double s = (side1+side2+side3)/2;
             return Math.sqrt(s*(s-side1)*(s-side2)*(s-side3))/(side3/2);
         }
-
-        /*
-        *@param Triangle Object
-        *@return area of triangle object
-        */
         @Override
         public double getArea(){
         return width*height/2;

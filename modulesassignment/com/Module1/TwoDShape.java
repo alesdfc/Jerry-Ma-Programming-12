@@ -1,6 +1,6 @@
-package Modules.Module3;
+package Modules.com.Module1;
 
-abstract public class TwoDShape {
+public class TwoDShape {
 
     double width;
     double height;
@@ -13,9 +13,11 @@ abstract public class TwoDShape {
         this.width = 1;
         this.height = 1;
     }
-    abstract public double getArea();
+    public double getArea(){
+        return width*height;
+    };
     public void setHeight(double height){
-            this.height = height;
+        this.height = height;
     }
     public double getHeight(){
         return height;
@@ -27,3 +29,4 @@ abstract public class TwoDShape {
         return width;
     }
 }
+

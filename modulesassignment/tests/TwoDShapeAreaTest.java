@@ -1,8 +1,7 @@
-import Modules.Module4.Circle;
-import Modules.Module4.Triangle;
-import Modules.Module4.TwoDShape;
+import Modules.com.Module4.Circle;
+import Modules.com.Module4.Triangle;
+import Modules.com.Module4.TwoDShape;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
