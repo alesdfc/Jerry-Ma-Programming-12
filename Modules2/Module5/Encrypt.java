@@ -41,7 +41,6 @@ public class Encrypt {
             //If current character is a space, append space to decrypted
             if (cool.charAt(i) == ' ') {
                 test.append(' ');
-                System.out.println("I Added a Space");
             } else {
                 test.append(alphabet.get(((int)cool.charAt(i) - 97 + shift)%26));
                 }
